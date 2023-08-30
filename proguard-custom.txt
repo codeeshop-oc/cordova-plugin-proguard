@@ -106,5 +106,6 @@
 -dontwarn android.net.http.*
 
 # These clases contain references to cordova webView
--keep class com.ionicframework.cordova.webview.** {*; }
--keep class com.ionicframework.cordova.webview.*
+-keep public class admob.plugin.ads.** {
+  public *;
+}
