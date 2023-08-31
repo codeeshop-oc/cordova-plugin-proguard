@@ -3,12 +3,12 @@ android {
     debug {
       minifyEnabled false
       shrinkResources false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
+      proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), 'src/main/assets/www/proguard-custom.txt'
     }
     release {
       minifyEnabled true
       shrinkResources true
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
+      proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), 'src/main/assets/www/proguard-custom.txt'
     }
   }
 }
