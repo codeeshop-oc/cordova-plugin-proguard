@@ -4,9 +4,6 @@
   <description>Activated ProGuard for Android</description>
 
   <platform name="android">
-    <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-    </config-file>
     <framework src="build.gradle" custom="true" type="gradleReference" />
     <asset src="proguard-custom.txt" target="proguard-custom.txt" />
     <hook type="before_plugin_install" src="scripts/androidBeforeInstall.js" />
