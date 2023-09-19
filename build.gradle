@@ -9,7 +9,9 @@ android {
       minifyEnabled true
       shrinkResources true
       proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), 'src/main/assets/www/proguard-custom.txt'
+      ndk {
+        debugSymbolLevel = 'FULL'
+      }
     }
   }
 }
-
