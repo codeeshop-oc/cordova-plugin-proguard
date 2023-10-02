@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-proguard",
+  "name": "@codeeshop-oc/cordova-plugin-proguard",
   "version": "2.3.0",
   "description": "Cordova plugin for ProGuard",
   "repository": {
